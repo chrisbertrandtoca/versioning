@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "id": "feda0b29-1472-4284-b672-1c02c0a29099",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-05-07T14:53:12Z",
+    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "uuid": "feda0b29-1472-4284-b672-1c02c0a29099",
+    "description": "asd",
+    "datastoreType": "Internal",
+    "datastoreParameters": [
+      {
+        "datastoreId": "feda0b29-1472-4284-b672-1c02c0a29099",
+        "uuid": "019e02ed-fcbd-7492-907d-2e1464eec39f",
+        "key": "t1",
+        "type": "TableV3",
+        "value": "019e02ed-fcbd-7492-907d-2e1464eec39f",
+        "revision": "019e02ef-0005-72be-b93f-6a7672265b54"
+      },
+      {
+        "datastoreId": "feda0b29-1472-4284-b672-1c02c0a29099",
+        "uuid": "019e02ed-b38c-7435-87f5-1fab5c94d483",
+        "key": "fileDrive",
+        "type": "FilesLocator",
+        "value": "{\u0022type\u0022:\u0022ObjectStore\u0022}",
+        "revision": "019e02ed-b390-75cf-8a1d-324575ff59ef"
+      },
+      {
+        "datastoreId": "feda0b29-1472-4284-b672-1c02c0a29099",
+        "uuid": "019e02ee-20e9-74c2-b68a-2a0706dd7ccc",
+        "key": "key",
+        "type": "String",
+        "value": "mykey",
+        "revision": "019e02ee-20e9-74c3-be7d-d2b76fbc3f35"
+      }
+    ],
+    "tables": [
+      {
+        "id": "019e02ed-fcbd-7492-907d-2e1464eec39f",
+        "datastoreParameterId": "019e02ed-fcbd-7492-907d-2e1464eec39f",
+        "model": {
+          "id": {
+            "name": "id",
+            "label": "id",
+            "type": "uuid",
+            "isPrimaryKey": true,
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": true,
+              "dataType": "Uuid"
+            }
+          },
+          "created": {
+            "name": "created",
+            "label": "Created",
+            "type": "datetime",
+            "isPrimaryKey": false,
+            "metaData": {
+              "autoGenerate": true
+            },
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": false,
+              "dataType": "DateTime"
+            }
+          },
+          "updated": {
+            "name": "updated",
+            "label": "Updated",
+            "type": "datetime",
+            "isPrimaryKey": false,
+            "metaData": {
+              "autoGenerate": true,
+              "autoUpdate": true
+            },
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": false,
+              "dataType": "DateTime"
+            }
+          },
+          "name": {
+            "name": "name",
+            "label": "name",
+            "type": "string",
+            "isPrimaryKey": false,
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": false,
+              "dataType": "Text"
+            }
+          },
+          "cost": {
+            "name": "cost",
+            "label": "cost",
+            "type": "number",
+            "isPrimaryKey": false,
+            "constraints": {
+              "isUnique": false,
+              "isNotNull": false
+            }
+          }
+        },
+        "relationships": [],
+        "selectQuery": "SELECT c.\u0060cost\u0060 AS \u0027c.cost\u0027,c.\u0060created\u0060 AS \u0027c.created\u0027,c.\u0060id\u0060 AS \u0027c.id\u0027,c.\u0060name\u0060 AS \u0027c.name\u0027,c.\u0060updated\u0060 AS \u0027c.updated\u0027 FROM \u0060019e02ed-fcbd-7492-907d-2e1464eec39f\u0060 c",
+        "nonRecursiveSelectQuery": "SELECT c.* FROM \u0060019e02ed-fcbd-7492-907d-2e1464eec39f\u0060 c ",
+        "indexes": [
+          {
+            "name": "PRIMARY",
+            "columns": {
+              "id": "Ascending"
+            },
+            "unique": true,
+            "type": "BTree"
+          }
+        ],
+        "position": [
+          6,
+          37
+        ],
+        "revision": "019e02ef-0005-72be-b93f-6a7672265b54"
+      }
+    ],
+    "tableMigrations": [
+      {
+        "revisionId": "019e02ef-0005-72be-b93f-6a7672265b54",
+        "tableName": "019e02ed-fcbd-7492-907d-2e1464eec39f",
+        "created": "2026-05-07T14:54:38Z",
+        "upSql": "ALTER TABLE \u0060019e02ed-fcbd-7492-907d-2e1464eec39f\u0060 ADD \u0060cost\u0060 DOUBLE NULL;\n",
+        "upFriendlyName": "Add column \u0060cost\u0060 to table \u0060t1\u0060",
+        "downSql": "ALTER TABLE \u0060019e02ed-fcbd-7492-907d-2e1464eec39f\u0060 DROP COLUMN \u0060cost\u0060;",
+        "downFriendlyName": "Drop column \u0060cost\u0060 from table \u0060t1\u0060"
+      },
+      {
+        "revisionId": "019e02ee-ff8c-7002-a164-8e4b7b7dd7b7",
+        "tableName": "019e02ed-fcbd-7492-907d-2e1464eec39f",
+        "created": "2026-05-07T14:54:37Z",
+        "upSql": "DROP INDEX IF EXISTS \u0060PRIMARY\u0060 ON \u0060019e02ed-fcbd-7492-907d-2e1464eec39f\u0060;",
+        "upFriendlyName": "Drop index \u0060PRIMARY\u0060 on table \u0060t1\u0060",
+        "downSql": "CREATE UNIQUE INDEX \u0060PRIMARY\u0060 ON \u0060019e02ed-fcbd-7492-907d-2e1464eec39f\u0060 (\u0060id\u0060 ASC) USING BTREE;",
+        "downFriendlyName": "Add index \u0060PRIMARY\u0060 to table \u0060t1\u0060"
+      }
+    ],
+    "workspaceId": "ff35241d-cc47-4dd2-a92f-6d613f83d25f",
+    "resourceId": "feda0b29-1472-4284-b672-1c02c0a29099",
+    "name": "datastore stuff"
+  }
+}
