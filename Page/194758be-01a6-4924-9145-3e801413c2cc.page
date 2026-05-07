@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "id": "194758be-01a6-4924-9145-3e801413c2cc",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-05-07T14:43:33Z",
+    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "pageId": "194758be-01a6-4924-9145-3e801413c2cc",
+    "dashBoardId": "69fca5156122b0a16697045f",
+    "title": "Home",
+    "layout": "{\u0022version\u0022:\u00222\u0022,\u0022rootComponentId\u0022:\u00220b04bb31-863e-4e51-b96e-879888f025ee\u0022,\u0022components\u0022:{\u00220b04bb31-863e-4e51-b96e-879888f025ee\u0022:{\u0022id\u0022:\u00220b04bb31-863e-4e51-b96e-879888f025ee\u0022,\u0022definitionId\u0022:\u0022@tocabot/app/page-root\u0022,\u0022options\u0022:{},\u0022slots\u0022:{\u0022root\u0022:[\u0022426233d2-db26-4cc9-b155-063e5f4b2a2d\u0022]},\u0022classes\u0022:{\u0022root\u0022:[]}},\u0022426233d2-db26-4cc9-b155-063e5f4b2a2d\u0022:{\u0022id\u0022:\u0022426233d2-db26-4cc9-b155-063e5f4b2a2d\u0022,\u0022name\u0022:\u0022Flex Layout_ncBp\u0022,\u0022definitionId\u0022:\u0022c86e9279-7213-4e99-9646-c65f9c98b9ca\u0022,\u0022slots\u0022:{\u0022root\u0022:[\u00222835d561-1cfb-49c4-b388-6cf8182a9ca8\u0022]},\u0022options\u0022:{\u0022spaceBetween\u0022:0,\u0022align\u0022:\u0022stretch\u0022,\u0022justify\u0022:\u0022start\u0022,\u0022direction\u0022:1},\u0022slotProps\u0022:{},\u0022classes\u0022:{\u0022root\u0022:[]}},\u00222835d561-1cfb-49c4-b388-6cf8182a9ca8\u0022:{\u0022id\u0022:\u00222835d561-1cfb-49c4-b388-6cf8182a9ca8\u0022,\u0022name\u0022:\u0022Card_RHOW\u0022,\u0022definitionId\u0022:\u0022000fb580-28fa-4798-a568-504aef84b5d2\u0022,\u0022slots\u0022:{\u0022root\u0022:[]},\u0022options\u0022:{\u0022showHeader\u0022:true,\u0022title\u0022:\u0022Card title\u0022,\u0022subheader\u0022:[{\u0022kind\u0022:\u0022text\u0022,\u0022text\u0022:\u0022aasdasd\u0022}],\u0022outlined\u0022:false},\u0022slotProps\u0022:{},\u0022classes\u0022:{\u0022root\u0022:[]}}},\u0022viewports\u0022:{\u0022414\u0022:[],\u0022768\u0022:[],\u00221280\u0022:[],\u00221440\u0022:[]}}",
+    "parameters": [],
+    "deleted": false,
+    "version": "0.0.0",
+    "workspaceId": "ff35241d-cc47-4dd2-a92f-6d613f83d25f",
+    "resourceId": "194758be-01a6-4924-9145-3e801413c2cc",
+    "name": "Home"
+  }
+}

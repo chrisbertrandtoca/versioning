@@ -12,6 +12,7 @@
     "route": "versioning-demo",
     "description": "Versioning",
     "cmsEnabled": false,
+    "repositoryUrl": "https://github.com/chrisbertrandtoca/versioning.git",
     "workspaceId": "ff35241d-cc47-4dd2-a92f-6d613f83d25f",
     "resourceId": "ff35241d-cc47-4dd2-a92f-6d613f83d25f",
     "name": "Versioning Demo"

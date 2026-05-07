@@ -42,13 +42,38 @@
         "componentDetails": [],
         "appActionsDetails": []
       }
+    },
+    {
+      "type": "GitAppResource",
+      "id": "69fca5156122b0a16697045f",
+      "path": "App/69fca5156122b0a16697045f.app",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitPageResource",
+      "id": "194758be-01a6-4924-9145-3e801413c2cc",
+      "path": "Page/194758be-01a6-4924-9145-3e801413c2cc.page",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [
+          {
+            "definitionId": "c86e9279-7213-4e99-9646-c65f9c98b9ca",
+            "name": "Flex Layout",
+            "version": "0.0.6"
+          },
+          {
+            "definitionId": "000fb580-28fa-4798-a568-504aef84b5d2",
+            "name": "Card",
+            "version": "0.0.5"
+          }
+        ],
+        "appActionsDetails": []
+      }
     }
   ],
-  "environmentMappings": [
-    {
-      "resourceType": "Bot",
-      "aliasKey": "bot-bot-1",
-      "aliasValue": "alias:bot-bot-1"
-    }
-  ]
+  "environmentMappings": []
 }
