@@ -93,6 +93,16 @@
         "componentDetails": [],
         "appActionsDetails": []
       }
+    },
+    {
+      "type": "GitDatastoreResource",
+      "id": "feda0b29-1472-4284-b672-1c02c0a29099",
+      "path": "Datastore/feda0b29-1472-4284-b672-1c02c0a29099.datastore",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
     }
   ],
   "environmentMappings": []
