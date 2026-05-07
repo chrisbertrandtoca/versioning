@@ -1,4 +1,43 @@
 {
   "version": 1,
-  "workspaceId": "ff35241d-cc47-4dd2-a92f-6d613f83d25f"
+  "workspaceId": "ff35241d-cc47-4dd2-a92f-6d613f83d25f",
+  "resources": [
+    {
+      "type": "GitWorkspaceResource",
+      "id": "ff35241d-cc47-4dd2-a92f-6d613f83d25f",
+      "path": "ff35241d-cc47-4dd2-a92f-6d613f83d25f.workspace",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitProjectResource",
+      "id": "38292d4f-62bd-4e11-b548-8180341b89c5",
+      "path": "Project/38292d4f-62bd-4e11-b548-8180341b89c5.project",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitActivityResource",
+      "id": "ee8bdf28-0907-450b-b07c-4615185566a2",
+      "path": "Activity/ee8bdf28-0907-450b-b07c-4615185566a2.activity",
+      "dependencies": {
+        "actionDetails": [
+          {
+            "definitionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
+            "name": "Debug Value",
+            "version": "1.0.2"
+          }
+        ],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    }
+  ],
+  "environmentMappings": []
 }
