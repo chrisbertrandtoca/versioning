@@ -32,6 +32,11 @@
             "definitionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
             "name": "Debug Value",
             "version": "1.0.2"
+          },
+          {
+            "definitionId": "0a527d24-4354-41eb-948e-0c8ce8d85ea5",
+            "name": "Capture Screen",
+            "version": "1.0.3"
           }
         ],
         "componentDetails": [],
@@ -39,5 +44,11 @@
       }
     }
   ],
-  "environmentMappings": []
+  "environmentMappings": [
+    {
+      "resourceType": "Bot",
+      "aliasKey": "bot-bot-1",
+      "aliasValue": "alias:bot-bot-1"
+    }
+  ]
 }
