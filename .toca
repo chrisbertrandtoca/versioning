@@ -73,6 +73,26 @@
         ],
         "appActionsDetails": []
       }
+    },
+    {
+      "type": "GitWorkflowResource",
+      "id": "4702cbf0-3407-46ed-81f6-db5421083d1f",
+      "path": "Workflow/4702cbf0-3407-46ed-81f6-db5421083d1f.workflow",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
+    },
+    {
+      "type": "GitListenerResource",
+      "id": "80492029-aec8-46be-a22d-6cecb1fb70d3",
+      "path": "Listener/80492029-aec8-46be-a22d-6cecb1fb70d3.listener",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
     }
   ],
   "environmentMappings": []
