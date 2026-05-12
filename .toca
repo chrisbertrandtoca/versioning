@@ -140,13 +140,17 @@
         "componentDetails": [],
         "appActionsDetails": []
       }
+    },
+    {
+      "type": "GitActivityResource",
+      "id": "be57c54f-15f4-417d-9115-7732eebe4f47",
+      "path": "Activity/be57c54f-15f4-417d-9115-7732eebe4f47.activity",
+      "dependencies": {
+        "actionDetails": [],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
     }
   ],
-  "environmentMappings": [
-    {
-      "resourceType": "Bot",
-      "aliasKey": "bot-bot-1",
-      "aliasValue": "alias:bot-bot-1"
-    }
-  ]
+  "environmentMappings": []
 }
