@@ -10,7 +10,9 @@
     "projectId": "38292d4f-62bd-4e11-b548-8180341b89c5",
     "description": "asd",
     "associatedUserId": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
-    "botIds": [],
+    "botIds": [
+      "alias:bot-bot-1"
+    ],
     "version": 1,
     "actions": [
       {
@@ -47,13 +49,63 @@
         "status": 0,
         "breakPoint": "None",
         "datastoreReferences": []
+      },
+      {
+        "name": "Capture Screen",
+        "type": "CaptureScreen",
+        "version": "1.0.3",
+        "originId": "cb6d7524-b480-e48e-1829-e77747783eff",
+        "actionId": "c0624a31-a326-4a12-a4ea-49a6a6f2b155",
+        "actionDefinitionActionId": "0a527d24-4354-41eb-948e-0c8ce8d85ea5",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "regionImage",
+            "type": "Image",
+            "value": "\u0022019e1bc8-6317-7288-9569-9ad200d9fc36\u0022"
+          },
+          {
+            "key": "region",
+            "type": "BoundingBox",
+            "value": "{\u0022x\u0022:495,\u0022y\u0022:363,\u0022w\u0022:285,\u0022h\u0022:366}"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
       }
     ],
     "variableMappings": [],
     "outputMappings": [],
     "metaData": [],
     "deleted": false,
-    "activityServiceType": "Stateless",
+    "activityServiceType": "Gui",
     "migratedToBotUuid": false,
     "workspaceId": "ff35241d-cc47-4dd2-a92f-6d613f83d25f",
     "resourceId": "bc6fa6e5-68cc-4375-8969-2b1b435a7d62",
