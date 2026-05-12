@@ -119,6 +119,22 @@
         "componentDetails": [],
         "appActionsDetails": []
       }
+    },
+    {
+      "type": "GitActivityResource",
+      "id": "bc6fa6e5-68cc-4375-8969-2b1b435a7d62",
+      "path": "Activity/bc6fa6e5-68cc-4375-8969-2b1b435a7d62.activity",
+      "dependencies": {
+        "actionDetails": [
+          {
+            "definitionId": "fb707467-e3b5-44da-a74f-3b6ca383791c",
+            "name": "Debug Value",
+            "version": "1.0.2"
+          }
+        ],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
     }
   ],
   "environmentMappings": []
