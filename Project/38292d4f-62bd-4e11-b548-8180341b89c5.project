@@ -10,7 +10,11 @@
     "projectId": "38292d4f-62bd-4e11-b548-8180341b89c5",
     "description": "asd",
     "deactivated": false,
-    "actionGroups": [],
+    "actionGroups": [
+      "ef3b838c-5ed5-450e-8414-f71e30f5ecb3",
+      "1aa02d72-c074-4540-9f91-ab96facb9682",
+      "13d2627f-b2dd-4da5-a54c-877cddab5817"
+    ],
     "workspaceId": "ff35241d-cc47-4dd2-a92f-6d613f83d25f",
     "resourceId": "38292d4f-62bd-4e11-b548-8180341b89c5",
     "name": "automation proj"
