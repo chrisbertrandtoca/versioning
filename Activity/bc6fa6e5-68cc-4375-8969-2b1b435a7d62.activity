@@ -65,12 +65,12 @@
           {
             "key": "regionImage",
             "type": "Image",
-            "value": "\u0022019e21ac-0aed-75fa-8c21-0bcb3be19aec\u0022"
+            "value": "\u0022019e21bb-d0c0-77f0-9fb6-4b9fa39befb6\u0022"
           },
           {
             "key": "region",
             "type": "BoundingBox",
-            "value": "{\u0022x\u0022:575,\u0022y\u0022:377,\u0022w\u0022:783,\u0022h\u0022:354}"
+            "value": "{\u0022x\u0022:586,\u0022y\u0022:178,\u0022w\u0022:65,\u0022h\u0022:59}"
           },
           {
             "key": "timeout",
