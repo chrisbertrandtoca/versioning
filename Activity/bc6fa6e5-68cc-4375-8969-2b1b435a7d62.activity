@@ -3,7 +3,7 @@
     "id": "bc6fa6e5-68cc-4375-8969-2b1b435a7d62",
     "platformVersion": "10.0.0",
     "createdAt": "2026-05-12T09:11:59Z",
-    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
+    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
     "schemaVersion": "1.0.0"
   },
   "content": {
@@ -11,7 +11,7 @@
     "description": "asd",
     "associatedUserId": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
     "botIds": [
-      "alias:bot-CBPAD"
+      "alias:bot-bot-1"
     ],
     "version": 1,
     "actions": [
@@ -171,6 +171,56 @@
             "key": "region",
             "type": "BoundingBox",
             "value": "{\u0022x\u0022:398,\u0022y\u0022:230,\u0022w\u0022:1233,\u0022h\u0022:464}"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
+      },
+      {
+        "name": "Capture Screen",
+        "type": "CaptureScreen",
+        "version": "1.0.3",
+        "originId": "cb6d7524-b480-e48e-1829-e77747783eff",
+        "actionId": "864f6af8-bd48-47da-abcb-0686f8bae769",
+        "actionDefinitionActionId": "0a527d24-4354-41eb-948e-0c8ce8d85ea5",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "regionImage",
+            "type": "Image",
+            "value": "\u0022019e21bf-9b31-734c-a260-ade4a3b0695a\u0022"
+          },
+          {
+            "key": "region",
+            "type": "BoundingBox",
+            "value": "{\u0022x\u0022:886,\u0022y\u0022:933,\u0022w\u0022:182,\u0022h\u0022:24}"
           },
           {
             "key": "timeout",
