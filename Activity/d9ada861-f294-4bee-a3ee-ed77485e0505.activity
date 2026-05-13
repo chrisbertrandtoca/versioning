@@ -30,12 +30,62 @@
           {
             "key": "regionImage",
             "type": "Image",
-            "value": "\u0022019e21d0-eed4-754a-bb92-dfe3f692c941\u0022"
+            "value": "\u0022019e21d7-7673-7721-920b-41ad7fedc4fd\u0022"
           },
           {
             "key": "region",
             "type": "BoundingBox",
-            "value": "{\u0022x\u0022:724,\u0022y\u0022:729,\u0022w\u0022:403,\u0022h\u0022:146}"
+            "value": "{\u0022x\u0022:587,\u0022y\u0022:182,\u0022w\u0022:47,\u0022h\u0022:56}"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
+      },
+      {
+        "name": "Capture Screen",
+        "type": "CaptureScreen",
+        "version": "1.0.3",
+        "originId": "cb6d7524-b480-e48e-1829-e77747783eff",
+        "actionId": "2413edc2-64f6-46cc-8a03-f82bb2d5d082",
+        "actionDefinitionActionId": "0a527d24-4354-41eb-948e-0c8ce8d85ea5",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "regionImage",
+            "type": "Image",
+            "value": "\u0022019e21d7-62ce-71d8-9455-0e3d351fadcd\u0022"
+          },
+          {
+            "key": "region",
+            "type": "BoundingBox",
+            "value": "{\u0022x\u0022:549,\u0022y\u0022:362,\u0022w\u0022:688,\u0022h\u0022:303}"
           },
           {
             "key": "timeout",
