@@ -150,7 +150,49 @@
         "componentDetails": [],
         "appActionsDetails": []
       }
+    },
+    {
+      "type": "GitActivityResource",
+      "id": "af33b546-5c35-47e9-a6fb-ab5055e79065",
+      "path": "Activity/af33b546-5c35-47e9-a6fb-ab5055e79065.activity",
+      "dependencies": {
+        "actionDetails": [
+          {
+            "definitionId": "3a48ed45-d7a7-4945-87ee-939f082c2e1c",
+            "name": "Image Compare",
+            "version": "1.0.1"
+          },
+          {
+            "definitionId": "0a527d24-4354-41eb-948e-0c8ce8d85ea5",
+            "name": "Capture Screen",
+            "version": "1.0.3"
+          },
+          {
+            "definitionId": "94e0593b-7d1a-4c07-9e98-67db93be0f3d",
+            "name": "OCR Search",
+            "version": "1.0.3"
+          },
+          {
+            "definitionId": "8166ba31-6b9c-4838-a5a9-acf679684e62",
+            "name": "Open Browser",
+            "version": "1.0.5"
+          },
+          {
+            "definitionId": "1648e989-3a97-4776-82a1-4b8f493270d1",
+            "name": "Get Web Element",
+            "version": "1.0.6"
+          }
+        ],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
     }
   ],
-  "environmentMappings": []
+  "environmentMappings": [
+    {
+      "resourceType": "Bot",
+      "aliasKey": "bot-bot-1",
+      "aliasValue": "alias:bot-bot-1"
+    }
+  ]
 }
