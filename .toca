@@ -204,5 +204,11 @@
       }
     }
   ],
-  "environmentMappings": []
+  "environmentMappings": [
+    {
+      "resourceType": "Bot",
+      "aliasKey": "bot-bot-1",
+      "aliasValue": "alias:bot-bot-1"
+    }
+  ]
 }
