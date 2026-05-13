@@ -164,6 +164,56 @@
         "status": 0,
         "breakPoint": "None",
         "datastoreReferences": []
+      },
+      {
+        "name": "Capture Screen",
+        "type": "CaptureScreen",
+        "version": "1.0.3",
+        "originId": "cb6d7524-b480-e48e-1829-e77747783eff",
+        "actionId": "cb0ba6e6-cb0e-4eef-bd4f-8715ecdda6f4",
+        "actionDefinitionActionId": "0a527d24-4354-41eb-948e-0c8ce8d85ea5",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "regionImage",
+            "type": "Image",
+            "value": "\u0022019e21f7-c2ed-762a-9f79-fcf354c8844e\u0022"
+          },
+          {
+            "key": "region",
+            "type": "BoundingBox",
+            "value": "{\u0022x\u0022:1105,\u0022y\u0022:186,\u0022w\u0022:119,\u0022h\u0022:57}"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
       }
     ],
     "variableMappings": [],
