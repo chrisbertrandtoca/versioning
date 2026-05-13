@@ -176,6 +176,11 @@
             "definitionId": "8166ba31-6b9c-4838-a5a9-acf679684e62",
             "name": "Open Browser",
             "version": "1.0.5"
+          },
+          {
+            "definitionId": "1648e989-3a97-4776-82a1-4b8f493270d1",
+            "name": "Get Web Element",
+            "version": "1.0.6"
           }
         ],
         "componentDetails": [],
