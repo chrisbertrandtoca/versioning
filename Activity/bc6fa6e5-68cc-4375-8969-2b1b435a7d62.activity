@@ -3,7 +3,7 @@
     "id": "bc6fa6e5-68cc-4375-8969-2b1b435a7d62",
     "platformVersion": "10.0.0",
     "createdAt": "2026-05-12T09:11:59Z",
-    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "createdBy": "cb3e6503-0240-4df6-87d6-5afff481116d",
     "schemaVersion": "1.0.0"
   },
   "content": {
@@ -11,7 +11,7 @@
     "description": "asd",
     "associatedUserId": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
     "botIds": [
-      "alias:bot-bot-1"
+      "alias:bot-CBPAD"
     ],
     "version": 1,
     "actions": [
@@ -71,6 +71,106 @@
             "key": "region",
             "type": "BoundingBox",
             "value": "{\u0022x\u0022:0,\u0022y\u0022:0,\u0022w\u0022:124,\u0022h\u0022:101}"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
+      },
+      {
+        "name": "Capture Screen",
+        "type": "CaptureScreen",
+        "version": "1.0.3",
+        "originId": "cb6d7524-b480-e48e-1829-e77747783eff",
+        "actionId": "78d5d9d8-0f58-44f0-aced-205c828d0207",
+        "actionDefinitionActionId": "0a527d24-4354-41eb-948e-0c8ce8d85ea5",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "regionImage",
+            "type": "Image",
+            "value": "\u0022019e213e-78f5-73b9-90aa-ba7f296c3f53\u0022"
+          },
+          {
+            "key": "region",
+            "type": "BoundingBox",
+            "value": "{\u0022x\u0022:564,\u0022y\u0022:539,\u0022w\u0022:879,\u0022h\u0022:369}"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
+      },
+      {
+        "name": "Capture Screen",
+        "type": "CaptureScreen",
+        "version": "1.0.3",
+        "originId": "cb6d7524-b480-e48e-1829-e77747783eff",
+        "actionId": "c96d136d-8c60-4530-928e-eee0c2b1f9e2",
+        "actionDefinitionActionId": "0a527d24-4354-41eb-948e-0c8ce8d85ea5",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "regionImage",
+            "type": "Image",
+            "value": "\u0022019e2157-9956-7748-a439-e816be3c673c\u0022"
+          },
+          {
+            "key": "region",
+            "type": "BoundingBox",
+            "value": "{\u0022x\u0022:398,\u0022y\u0022:230,\u0022w\u0022:1233,\u0022h\u0022:464}"
           },
           {
             "key": "timeout",
