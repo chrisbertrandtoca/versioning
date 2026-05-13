@@ -186,6 +186,22 @@
         "componentDetails": [],
         "appActionsDetails": []
       }
+    },
+    {
+      "type": "GitActivityResource",
+      "id": "d9ada861-f294-4bee-a3ee-ed77485e0505",
+      "path": "Activity/d9ada861-f294-4bee-a3ee-ed77485e0505.activity",
+      "dependencies": {
+        "actionDetails": [
+          {
+            "definitionId": "0a527d24-4354-41eb-948e-0c8ce8d85ea5",
+            "name": "Capture Screen",
+            "version": "1.0.3"
+          }
+        ],
+        "componentDetails": [],
+        "appActionsDetails": []
+      }
     }
   ],
   "environmentMappings": [

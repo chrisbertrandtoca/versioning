@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "id": "d9ada861-f294-4bee-a3ee-ed77485e0505",
+    "platformVersion": "10.0.0",
+    "createdAt": "2026-05-13T14:49:46Z",
+    "createdBy": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "schemaVersion": "1.0.0"
+  },
+  "content": {
+    "projectId": "38292d4f-62bd-4e11-b548-8180341b89c5",
+    "description": "nsadkjf",
+    "associatedUserId": "3b476bf3-0f2b-43c0-b7f2-4b8c7c8b2612",
+    "botIds": [
+      "alias:bot-bot-1"
+    ],
+    "version": 1,
+    "actions": [
+      {
+        "name": "Capture Screen",
+        "type": "CaptureScreen",
+        "version": "1.0.3",
+        "originId": "cb6d7524-b480-e48e-1829-e77747783eff",
+        "actionId": "455bec25-ef56-4d86-abb7-0cd65bdcbf29",
+        "actionDefinitionActionId": "0a527d24-4354-41eb-948e-0c8ce8d85ea5",
+        "disabled": false,
+        "created": "0001-01-01T00:00:00Z",
+        "updated": "0001-01-01T00:00:00Z",
+        "isDeactivated": false,
+        "parameters": [
+          {
+            "key": "regionImage",
+            "type": "Image",
+            "value": "\u0022019e21d0-eed4-754a-bb92-dfe3f692c941\u0022"
+          },
+          {
+            "key": "region",
+            "type": "BoundingBox",
+            "value": "{\u0022x\u0022:724,\u0022y\u0022:729,\u0022w\u0022:403,\u0022h\u0022:146}"
+          },
+          {
+            "key": "timeout",
+            "type": "Number",
+            "value": "30000"
+          },
+          {
+            "key": "errorOnTimeout",
+            "type": "Boolean",
+            "value": "true"
+          },
+          {
+            "key": "failOnError",
+            "type": "Boolean",
+            "value": "true"
+          }
+        ],
+        "actions": [],
+        "context": [],
+        "tables": [],
+        "lists": [],
+        "variableMappings": [],
+        "variables": [],
+        "results": [],
+        "logs": [],
+        "status": 0,
+        "breakPoint": "None",
+        "datastoreReferences": []
+      }
+    ],
+    "variableMappings": [],
+    "outputMappings": [],
+    "metaData": [],
+    "deleted": false,
+    "activityServiceType": "Gui",
+    "migratedToBotUuid": false,
+    "workspaceId": "ff35241d-cc47-4dd2-a92f-6d613f83d25f",
+    "resourceId": "d9ada861-f294-4bee-a3ee-ed77485e0505",
+    "name": "for you"
+  }
+}
