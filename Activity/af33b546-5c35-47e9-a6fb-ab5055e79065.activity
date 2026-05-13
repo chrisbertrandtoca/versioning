@@ -30,7 +30,7 @@
           {
             "key": "sourceBox",
             "type": "BoundingBox",
-            "value": "{\u0022x\u0022:352,\u0022y\u0022:339,\u0022w\u0022:518,\u0022h\u0022:429}"
+            "value": "{\u0022x\u0022:939,\u0022y\u0022:838,\u0022w\u0022:282,\u0022h\u0022:82}"
           },
           {
             "key": "targetBox",
@@ -40,7 +40,7 @@
           {
             "key": "source",
             "type": "Image",
-            "value": "\u0022019e2069-ce1b-72ba-b7b7-fb6c8b2cde36\u0022"
+            "value": "\u0022019e2084-1c49-75a4-96a7-0eab73ab2e0d\u0022"
           },
           {
             "key": "target",
@@ -335,7 +335,7 @@
           {
             "key": "xpathImage",
             "type": "Image",
-            "value": "\u0022019e2082-ee93-70c5-99a7-6c1b636d0dc5\u0022"
+            "value": "\u0022019e2083-e101-721a-bf30-876dc45d8d7c\u0022"
           },
           {
             "key": "browserAlias",
